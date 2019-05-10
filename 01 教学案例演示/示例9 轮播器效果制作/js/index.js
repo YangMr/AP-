@@ -9,12 +9,12 @@ $(function () {
 		$(".member_ul").stop().slideUp();
 	});
 	//设置登陆框水平并且垂直居中
-	$("#login").css({
-		left: ($(window).width() - $("#login").outerWidth())/2,
-		top: ($(window).height() - $("#login").outerHeight())/2
-	})
+	center($("#login"));
 	//弹出登陆框
 	$(".login").click(function () {
+		//设置登陆框水平并且垂直居中
+		center($("#login"));
+		//登陆框显示
 		$("#login").show();
 		//遮罩显示
 		$("#screen").fadeIn();
@@ -51,53 +51,35 @@ $(function () {
 		$("#nav .nav_bg").stop().animate({
 			left : target + 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : -target
 			})
 		})
 	},function () {
-		$('#nav .nav_bg').animate({
+		$('#nav .nav_bg').stop().animate({
 			left : 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : 0
 			})
 		})
 	});
 	//左侧菜单切换效果
-	var flag = true;
 	$("#sidebar h2").click(function () {
-		if(flag){
-			$(this).next().animate({
-				height : 0,
-				opacity : 0
-			});
-			flag = false;
-		}else{
-			$(this).next().animate({
-				height : 150,
-				opacity : 100
-			});
-			flag = true;
-		}
-	})
+		$(this).next().slideToggle();
+	});
 	//轮播器效果
 	//轮播器初始化
-	//$('#banner img').css('display', 'none');
-	//$('#banner img').eq(0).css('display', 'block');
 	$('#banner img').css({"opacity" : 0,"filter" : "alpha(opacity=0)"})
 	$('#banner img').eq(0).css({"opacity" : 1,"filter" : "alpha(opacity=100)"});
 	$('#banner ul li').eq(0).css('color', '#333');
 	$('#banner strong').html($('#banner img').eq(0).attr('alt'));
 	//轮播器计数器
 	var banner_index = 1;
-
 	//轮播器的种类
 	var banner_type = 1; 		//1表示透明度，2表示上下滚动
-
 	//自动轮播器
 	var banner_timer = setInterval(banner_fn, 3000);
-
 	//手动轮播器
 	$('#banner ul li').hover(function () {
 		clearInterval(banner_timer);
@@ -132,7 +114,6 @@ $(function () {
 			}).css('top', '-150px').css('zIndex', 2).opacity(100);
 		}
 	}
-
 	function banner_fn() {
 		if (banner_index >= $('#banner ul li').length) banner_index = 0;
 		banner($('#banner ul li').eq(banner_index).first(), banner_index == 0 ? $('#banner ul li').length - 1 : banner_index - 1);

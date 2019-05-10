@@ -9,12 +9,12 @@ $(function () {
 		$(".member_ul").stop().slideUp();
 	});
 	//设置登陆框水平并且垂直居中
-	$("#login").css({
-		left: ($(window).width() - $("#login").outerWidth())/2,
-		top: ($(window).height() - $("#login").outerHeight())/2
-	})
+	center($("#login"));
 	//弹出登陆框
 	$(".login").click(function () {
+		//设置登陆框水平并且垂直居中
+		center($("#login"));
+		//登陆框显示
 		$("#login").show();
 		//遮罩显示
 		$("#screen").fadeIn();
@@ -51,15 +51,15 @@ $(function () {
 		$("#nav .nav_bg").stop().animate({
 			left : target + 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : -target
 			})
 		})
 	},function () {
-		$('#nav .nav_bg').animate({
+		$('#nav .nav_bg').stop().animate({
 			left : 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : 0
 			})
 		})

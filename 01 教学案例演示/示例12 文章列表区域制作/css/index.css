@@ -224,8 +224,39 @@ ul li {
 #index {
 	width:630px;
 	height:570px;
-	background:#eee;
 	float:right;
+	position:relative;
+}
+/*#index div.content {
+	opacity:0;
+	filter:alpha(opacity=0);
+}*/
+#index div.content h2 {
+	width:628px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	background:url(../images/side_h.png);
+	text-indent:10px;
+	border:1px solid #ccc;
+	border-bottom:none;
+	margin:0;
+}
+#index div.content h2 em {
+	float:right;
+	font-style:normal;
+	font-weight:normal;
+	padding:0 10px 0 0;
+}
+#index div.content p {
+	height:130px;
+	border:1px solid #ccc;
+	margin:0 0 10px 0;
+	overflow:hidden;
+	padding:10px;
+	text-indent:24px;
+	line-height:150%;
+	background:#fff;
 }
 #banner {
 	width:900px;
@@ -292,95 +323,6 @@ ul li {
 	height:25px;
 	line-height:25px;
 	text-align:center;
-}
-#photo_big {
-	width:620px;
-	height:511px;
-	border:1px solid #ccc;
-	position:absolute;
-	display:none;
-	z-index:9999;
-	background:#fff;
-}
-#photo_big h2 {
-	height:40px;
-	line-height:40px;
-	text-align:center;
-	font-size:14px;
-	letter-spacing:1px;
-	color:#666;
-	background:url(../images/login_header.png) repeat-x;
-	margin:0;
-	padding:0;
-	border-bottom:1px solid #ccc;
-	cursor:move;
-}
-#photo_big h2 img {
-	float:right;
-	position:relative;
-	top:14px;
-	right:8px;
-	cursor:pointer;
-}
-#photo_big .big {
-	width:620px;
-	height:460px;
-	padding:10px 0 0 0;
-	background:#333;
-}
-#photo_big .big img {
-	display:block;
-	margin:0 auto;
-	position:relative;
-	top:190px;
-}
-#photo_big .big strong {
-	display:block;
-	width:100px;
-	height:100px;
-	line-height:100px;
-	text-align:center;
-	background:#000;
-	opacity:0;
-	filter:alpha(opacity=0);
-	font-size:60px;
-	color:#fff;
-	cursor:pointer;
-	position:absolute;
-}
-#photo_big .big strong.sl {
-	top:210px;
-	left:20px;
-}
-#photo_big .big strong.sr {
-	top:210px;
-	right:20px;
-}
-#photo_big .big span {
-	display:block;
-	width:300px;
-	height:450px;
-	background:#000;
-	opacity:0;
-	filter:alpha(opacity=0);
-	position:absolute;
-	cursor:pointer;
-}
-#photo_big .big span.left {
-	top:50px;
-	left:10px;
-}
-#photo_big .big span.right {
-	top:50px;
-	right:10px;
-}
-#photo_big .big em {
-	position:absolute;
-	top:480px;
-	right:20px;
-	color:#fff;
-	font-size:14px;
-	font-style:normal;
 }
 #share {
 	width:210px;
@@ -505,7 +447,16 @@ ul li {
 	background:url(../images/share.png) no-repeat;
 	cursor:pointer;
 }
-
+#footer {
+	width:900px;
+	float:left;
+	text-align:center;
+	padding:5px;
+	clear: both;
+}
+#footer p {
+	padding:5px;
+}
 
 
 

@@ -1,15 +1,564 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b49f4918-491c-4955-bd3c-88af5f46a3cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/arrow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/arrow3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/arrow4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/bg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/blog_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/header_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/loading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/loading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/loading4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/login_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/login_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/nav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/nav_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p10big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p11big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p12big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p1big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p2big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p3big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p4big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p5big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p6big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p7big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p8big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/p9big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg_info2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg_info3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/reg_succ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/share_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/side_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/small_bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/images/wait_load.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/js/jquery.drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例1 header区域和下拉菜单的制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例1 header区域和下拉菜单的制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/arrow2.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/arrow2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/arrow3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/arrow3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/arrow4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/arrow4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/header_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/header_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/login_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/login_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/login_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/login_header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/nav_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/nav_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/nav_over.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/nav_over.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p10big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p10big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p11big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p11big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p12big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p12big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p1big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p1big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p2big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p2big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p3big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p3big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p4big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p4big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p5big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p5big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p6big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p6big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p7big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p7big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p8big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p8big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/p9big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/p9big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg_info.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg_info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg_info2.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg_info2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg_info3.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg_info3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/reg_succ.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/reg_succ.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/share.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/share.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/share_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/share_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/side_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/side_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/images/wait_load.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/images/wait_load.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/js/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/js/jquery.drag.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/js/jquery.drag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/common.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/common.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/index.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/common.js" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/css/index.css" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/css/index.css" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/index.html" />
+        <option value="$PROJECT_DIR$/01 教学案例演示/示例1 header区域和下拉菜单的制作/index.html" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="15" />
     <option name="y" value="56" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AP-Curriculum-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP-Curriculum-Development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AP-Curriculum-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP-Curriculum-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="01 教学案例演示" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AP-Curriculum-Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP-Curriculum-Development" type="462c0819:PsiDirectoryNode" />
+              <item name="01 教学案例演示" type="462c0819:PsiDirectoryNode" />
+              <item name="示例12 文章列表区域制作" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\承乾灵殊\Desktop\AP-Curriculum-Development\01 教学案例演示\示例12 文章列表区域制作\images" />
+      <recent name="C:\Users\承乾灵殊\Desktop\AP-Curriculum-Development\01 教学案例演示\示例12 文章列表区域制作" />
+      <recent name="C:\Users\承乾灵殊\Desktop\AP-Curriculum-Development\01 教学案例演示\示例11 底部区域制作" />
+      <recent name="C:\Users\承乾灵殊\Desktop\AP-Curriculum-Development\01 教学案例演示\示例10 延迟加载效果制作\js" />
+      <recent name="C:\Users\承乾灵殊\Desktop\AP-Curriculum-Development\01 教学案例演示\示例9 轮播器效果制作\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b49f4918-491c-4955-bd3c-88af5f46a3cb" name="Default Changelist" comment="" />
+      <created>1557131809098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557131809098</updated>
+      <workItem from="1557131810177" duration="1369000" />
+      <workItem from="1557453927840" duration="4099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5468000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20163691" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例11 预加载效果制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="180" column="52" selection-start-line="180" selection-start-column="52" selection-end-line="180" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/jquery.drag.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../桌面文件/ucai_web/js/第34章 项目1：博客前端/34/54/code/blog/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="423" column="15" selection-start-line="423" selection-start-column="15" selection-end-line="423" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="238" column="22" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例11 底部区域制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例10 延迟加载效果制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例9 轮播器效果制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例8 菜单与菜单切换效果的制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例7 导航与滑动导航效果制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例6 增强遮罩效果和下拉菜单效果/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例5 百度分享侧边栏效果制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例4 拖拽效果插件制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例3 遮罩和遮罩显示与隐藏制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例2 登录框和弹出登陆框与关闭登陆框的制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例1 header区域和下拉菜单的制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 教学案例演示/示例12 文章列表区域制作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

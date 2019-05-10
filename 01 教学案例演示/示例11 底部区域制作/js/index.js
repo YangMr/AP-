@@ -9,12 +9,12 @@ $(function () {
 		$(".member_ul").stop().slideUp();
 	});
 	//设置登陆框水平并且垂直居中
-	$("#login").css({
-		left: ($(window).width() - $("#login").outerWidth())/2,
-		top: ($(window).height() - $("#login").outerHeight())/2
-	})
+	center($("#login"));
 	//弹出登陆框
 	$(".login").click(function () {
+		//设置登陆框水平并且垂直居中
+		center($("#login"));
+		//登陆框显示
 		$("#login").show();
 		//遮罩显示
 		$("#screen").fadeIn();
@@ -53,40 +53,26 @@ $(function () {
 		$("#nav .nav_bg").stop().animate({
 			left : target + 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : -target
 			})
 		})
 	},function () {
-		$('#nav .nav_bg').animate({
+		$('#nav .nav_bg').stop().animate({
 			left : 20
 		},function () {
-			$('#nav .white').animate({
+			$('#nav .white').stop().animate({
 				left : 0
 			})
 		})
 	});
 	//左侧菜单切换效果
-	var flag = true;
 	$("#sidebar h2").click(function () {
-		if(flag){
-			$(this).next().animate({
-				height : 0,
-				opacity : 0
-			});
-			flag = false;
-		}else{
-			$(this).next().animate({
-				height : 150,
-				opacity : 100
-			});
-			flag = true;
-		}
+		$(this).next().slideToggle();
 	})
 	//轮播器效果
 	//轮播器初始化
-	//$('#banner img').css('display', 'none');
-	//$('#banner img').eq(0).css('display', 'block');
+
 	$('#banner img').css({"opacity" : 0,"filter" : "alpha(opacity=0)"})
 	$('#banner img').eq(0).css({"opacity" : 1,"filter" : "alpha(opacity=100)"});
 	$('#banner ul li').eq(0).css('color', '#333');
@@ -150,29 +136,13 @@ $(function () {
 				var _this = wait_load.get(i);
 				if ($(window).height() + $(window).scrollTop() >=  offsetTop(_this)) {
 					$(_this).attr('src', $(_this).attr('xsrc')).animate({
-						opacity : 100
+						opacity : 1
 					},1000);
 				}
 			}
 		}, 1000);
 	});
-	function offsetTop(element) {
-		var top = element.offsetTop;
-		var parent = element.offsetParent;
-		while (parent != null) {
-			top += parent.offsetTop;
-			parent = parent.offsetParent;
-		}
-		return top;
-	};
-	//预加载效果
-	//图片弹窗居中
-	var w = ($(window).width() - $("#photo_big").outerWidth())/2 + "px";
-	var h = ($(window).height() - $("#photo_big").outerHeight())/2 + "px";
-	$("#photo_big").css({
-		left: w,
-		top: h
-	})
+
 });
 
 

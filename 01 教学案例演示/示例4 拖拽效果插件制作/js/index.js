@@ -9,12 +9,12 @@ $(function () {
 		$(".member_ul").hide();
 	});
 	//设置登陆框水平并且垂直居中
-	$("#login").css({
-		left: ($(window).width() - $("#login").outerWidth())/2,
-		top: ($(window).height() - $("#login").outerHeight())/2
-	})
+	center($("#login"))
 	//弹出登陆框
 	$(".login").click(function () {
+		//设置登陆框水平并且垂直居中
+		center($("#login"))
+		//登陆框显示
 		$("#login").show();
 		//遮罩显示
 		$("#screen").show();

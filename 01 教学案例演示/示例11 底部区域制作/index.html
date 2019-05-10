@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8"/>
+	<title>示例10 延迟加载效果制作</title>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/jquery.drag.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+
+<div id="header">
+	<div class="header_center">
+		<div class="logo"><img src="images/logo.gif" alt="" /></div>
+		<div class="member">个人中心
+			<ul class="member_ul">
+				<li><a href="###">发文</a></li>
+				<li><a href="###">换肤</a></li>
+				<li><a href="###">帮助</a></li>
+				<li><a href="###">退出</a></li>
+			</ul>
+		</div>
+		<div class="login">登录</div>
+	</div>
+</div>
+
+
+<div id="login">
+	<h2><img src="images/close.png" alt="" class="close" />网站登录</h2>
+	<div class="user">帐 号：<input type="text" name="user" class="text" /></div>
+	<div class="pass">密 码：<input type="password" name="pass" class="text" /></div>
+	<div class="button"><input type="button" class="submit" value="" /></div>
+	<div class="other">注册新用户 | 忘记密码？</div>
+</div>
+
+<div id="nav">
+	<ul class="about">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<ul class="black">
+		<li>首页</li>
+		<li>博文列表</li>
+		<li>精彩相册</li>
+		<li>动感音乐</li>
+		<li>关于我</li>
+	</ul>
+	<div class="nav_bg">
+		<ul class="white">
+			<li>首页</li>
+			<li>博文列表</li>
+			<li>精彩相册</li>
+			<li>动感音乐</li>
+			<li>关于我</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="main">
+	<div id="sidebar">
+		<h2>教育博文1</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+		<h2>教育博文2</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+		<h2>教育博文3</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+	</div>
+	<div id="index">
+		index
+	</div>
+	<div id="banner">
+		<img src="images/banner1.jpg" alt="轮播器第一张" />
+		<img src="images/banner2.jpg" alt="轮播器第二张" />
+		<img src="images/banner3.jpg" alt="轮播器第三张" />
+		<ul>
+			<li>●</li>
+			<li>●</li>
+			<li>●</li>
+		</ul>
+		<span></span>
+		<strong></strong>
+	</div>
+
+	<div id="photo">
+		<dl>
+			<dt><img xsrc="images/p1.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p2.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p3.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p4.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p5.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p6.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p7.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p8.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p9.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p10.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p11.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p12.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+	</div>
+
+	<div id="footer">
+		<p>北京奥鹏教育 http://www.open.com.cn/</p>
+		<p>登记序号：京ICP备12003892号-3 京ICP证090034号 </p>
+	</div>
+</div>
+
+
+<div id="share">
+	<h2>分享到</h2>
+	<ul>
+		<li><a href="###" class="a">一键分享</a></li>
+		<li><a href="###" class="b">新浪微博</a></li>
+		<li><a href="###" class="c">人人网</a></li>
+		<li><a href="###" class="d">百度相册</a></li>
+		<li><a href="###" class="e">腾讯朋友</a></li>
+		<li><a href="###" class="f">豆瓣网</a></li>
+		<li><a href="###" class="g">百度新首页</a></li>
+		<li><a href="###" class="h">和讯微博</a></li>
+		<li><a href="###" class="i">QQ 空间</a></li>
+		<li><a href="###" class="j">百度搜藏</a></li>
+		<li><a href="###" class="k">腾讯微博</a></li>
+		<li><a href="###" class="l">开心网</a></li>
+		<li><a href="###" class="m">百度贴吧</a></li>
+		<li><a href="###" class="n">搜狐微博</a></li>
+		<li><a href="###" class="o">QQ 好友</a></li>
+		<li><a href="###" class="p">更多...</a></li>
+	</ul>
+	<div class="share_footer"><a href="###">百度分享</a><span></span></div>
+</div>
+
+<div id="screen"></div>
+
+<div id="test"></div>
+
+
+
+
+</body>
+</html>

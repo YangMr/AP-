@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8"/>
+	<title>示例12 文章列表区域制作</title>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/jquery.drag.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+
+<div id="header">
+	<div class="header_center">
+		<div class="logo"><img src="images/logo.gif" alt="" /></div>
+		<div class="member">个人中心
+			<ul class="member_ul">
+				<li><a href="###">发文</a></li>
+				<li><a href="###">换肤</a></li>
+				<li><a href="###">帮助</a></li>
+				<li><a href="###">退出</a></li>
+			</ul>
+		</div>
+		<div class="login">登录</div>
+	</div>
+</div>
+
+
+<div id="login">
+	<h2><img src="images/close.png" alt="" class="close" />网站登录</h2>
+	<div class="user">帐 号：<input type="text" name="user" class="text" /></div>
+	<div class="pass">密 码：<input type="password" name="pass" class="text" /></div>
+	<div class="button"><input type="button" class="submit" value="" /></div>
+	<div class="other">注册新用户 | 忘记密码？</div>
+</div>
+
+<div id="nav">
+	<ul class="about">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<ul class="black">
+		<li>首页</li>
+		<li>博文列表</li>
+		<li>精彩相册</li>
+		<li>动感音乐</li>
+		<li>关于我</li>
+	</ul>
+	<div class="nav_bg">
+		<ul class="white">
+			<li>首页</li>
+			<li>博文列表</li>
+			<li>精彩相册</li>
+			<li>动感音乐</li>
+			<li>关于我</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="main">
+	<div id="sidebar">
+		<h2>教育博文1</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+		<h2>教育博文2</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+		<h2>教育博文3</h2>
+		<ul>
+			<li><a href="###">靠自己95 后女生被16 所国外名校录取</a></li>
+			<li><a href="###">00 后的成长烦恼：压力巨大成隐形杀手</a></li>
+			<li><a href="###">一年自学MIT 的33 门课? 疯狂学习方法</a></li>
+			<li><a href="###">申请赴美读研人数下降5% 7 年来首遇冷</a></li>
+			<li><a href="###">西政“萌招聘”秀出辣椒与美女被赞</a></li>
+		</ul>
+	</div>
+
+	<div id="index">
+		<div class="content">
+			<h2>小米手机缺货、公司战略升级……这些问题雷军率高管一一回应 <em>2019-03-20 16:34</em></h2>
+			<p>今日，小米集团召开了2018年业绩报告会，就小米上市后的首份年报进行解读。在业绩发布会上，小米董事长兼CEO雷军、联合创始人总裁林斌、集团高级副总裁兼CFO周受资、集团副总裁兼redmi品牌总经理卢伟冰分别就外界关心的话题进行了回应。</p>
+		</div>
+		<div class="content">
+			<h2>今天，世界微笑日！嘿，笑一个吧！ <em>2019-05-06 22:09</em></h2>
+			<p>微笑，是人类最美的表情。对自己微笑，元气满满迎接新的一天；对他人微笑，脉脉温情融化隔阂与冷漠。你微笑着面对世界，世界便会回你以微笑，如此美好的特权，何必吝啬？今天，世界微笑日，此刻，请嘴角上扬15度，你笑起来的样子，真的很美！</p>
+		</div>
+		<div class="content">
+			<h2>中国电影市场为什么需要哭片？ <em>2019-03-20 14:20</em></h2>
+			<p>在《悲伤故事》走红的背后，正反映出当下电影市场和观众口味的一些特性——哭片正流行。如2017年底的《前任3》，去年暑期档的《我不是药神》，今年春节档的《流浪地球》正流行，不同的影片正在以不同的方式感动着观众，有的是爱情，有的是个人命运，有的是家国情怀。</p>
+		</div>
+	</div>
+
+	<div id="banner">
+		<img src="images/banner1.jpg" alt="轮播器第一张" />
+		<img src="images/banner2.jpg" alt="轮播器第二张" />
+		<img src="images/banner3.jpg" alt="轮播器第三张" />
+		<ul>
+			<li>●</li>
+			<li>●</li>
+			<li>●</li>
+		</ul>
+		<span></span>
+		<strong></strong>
+	</div>
+
+	<div id="photo">
+		<dl>
+			<dt><img xsrc="images/p1.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p2.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p3.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p4.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p5.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p6.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p7.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p8.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p9.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p10.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p11.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+
+		<dl>
+			<dt><img xsrc="images/p12.jpg" src="images/wait_load.jpg" class="wait_load" alt="" /></dt>
+			<dd>延迟加载图片</dd>
+		</dl>
+	</div>
+
+	<div id="footer">
+		<p>北京奥鹏教育 http://www.open.com.cn/</p>
+		<p>登记序号：京ICP备12003892号-3 京ICP证090034号 </p>
+	</div>
+
+</div>
+
+
+<div id="share">
+	<h2>分享到</h2>
+	<ul>
+		<li><a href="###" class="a">一键分享</a></li>
+		<li><a href="###" class="b">新浪微博</a></li>
+		<li><a href="###" class="c">人人网</a></li>
+		<li><a href="###" class="d">百度相册</a></li>
+		<li><a href="###" class="e">腾讯朋友</a></li>
+		<li><a href="###" class="f">豆瓣网</a></li>
+		<li><a href="###" class="g">百度新首页</a></li>
+		<li><a href="###" class="h">和讯微博</a></li>
+		<li><a href="###" class="i">QQ 空间</a></li>
+		<li><a href="###" class="j">百度搜藏</a></li>
+		<li><a href="###" class="k">腾讯微博</a></li>
+		<li><a href="###" class="l">开心网</a></li>
+		<li><a href="###" class="m">百度贴吧</a></li>
+		<li><a href="###" class="n">搜狐微博</a></li>
+		<li><a href="###" class="o">QQ 好友</a></li>
+		<li><a href="###" class="p">更多...</a></li>
+	</ul>
+	<div class="share_footer"><a href="###">百度分享</a><span></span></div>
+</div>
+
+<div id="screen"></div>
+
+<div id="test"></div>
+
+
+
+
+</body>
+</html>

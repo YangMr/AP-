@@ -128,8 +128,10 @@ $(function () {
 	}
 
 	//延迟加载效果
-	var wait_load = $('.wait_load');
-	wait_load.css("opacity",0);
+
+	var wait_load = $('.wait_load');  //获取所有的img元素
+	wait_load.css("opacity",0);      //设置所有的img元素透明度为0
+
 	$(window).on('scroll', function () {
 		setTimeout(function () {
 			for (var i = 0; i < wait_load.length; i++) {
@@ -144,9 +146,6 @@ $(function () {
 	});
 
 });
-
-
-
 
 
 

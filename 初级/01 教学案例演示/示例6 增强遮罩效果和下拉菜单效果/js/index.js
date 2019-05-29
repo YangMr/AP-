@@ -31,6 +31,7 @@ $(function () {
 
 	//关闭登陆框
 	$(".close").click(function () {
+		//登录框隐藏
 		$("#login").hide();
 		//遮罩淡出效果
 		$("#screen").fadeOut();

@@ -74,6 +74,7 @@ $(function () {
 	$('#banner img').eq(0).css({"opacity" : 1,"filter" : "alpha(opacity=100)"});
 	$('#banner ul li').eq(0).css('color', '#333');
 	$('#banner strong').html($('#banner img').eq(0).attr('alt'));
+
 	//轮播器计数器
 	var banner_index = 1;
 	//轮播器的种类
@@ -92,6 +93,7 @@ $(function () {
 		banner_index = $(this).index() + 1;
 		banner_timer = setInterval(banner_fn, 3000);
 	});
+
 
 	function banner(obj, prev) {
 		$('#banner ul li').css('color', '#999');
